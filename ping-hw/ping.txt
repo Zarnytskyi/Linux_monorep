@@ -10,7 +10,7 @@ while true; do
     else
         ((fail++))
         echo "Fail ($fail)"
-        [ "$fail" -ge 3 ] && echo "🚨 3 fails in one row!" && fail=0
+        [ "$fail" -ge 3 ] && echo " 3 fails in one row!" && fail=0
     fi
     sleep 1
 done
